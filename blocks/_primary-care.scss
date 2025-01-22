@@ -1,0 +1,74 @@
+.primary-care {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 582px;
+    padding-top: 82px;
+    gap: 32px;
+    grid-column: 1;
+}
+
+.primary-care__item {
+    margin-left: 86px;
+}
+
+.primary-care__title {
+    color: $black;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.54px;
+    position: relative;
+}
+
+.primary-care__text {
+    color: $dark-grey;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.primary-care__title--lighting::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url(./icon/sun.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    left: -90px;
+}
+
+.primary-care__title--water::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url(./icon/water.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    left: -90px;
+}
+
+.primary-care__title--plant::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url(./icon/plant-icon.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    left: -90px;
+}
+
+.primary-care__title--fertilize::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    background: url(./icon/temperature.svg);
+    background-repeat: no-repeat;
+    top: 0;
+    left: -90px;
+}

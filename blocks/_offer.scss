@@ -1,0 +1,60 @@
+.offer {
+    color: $light;
+    background-image: url(./img/gradient.png);
+    background-repeat: no-repeat;
+    height: 1004px;
+    background-position-y: bottom;
+    position: relative;
+}
+
+.offer__title {
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 96.19px;
+    width: 1128px;
+    margin: 28px auto 0;
+}
+
+.offer__text {
+    line-height: 36px;
+    width: 583px;
+    margin: 24px auto 0;
+}
+
+.offer__button {
+    border: 1px solid #FFFFFF;
+    width: 54px;
+    height: 54px;
+    background: #FFFFFF33;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+.offer__button::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    top: 18px;
+    left: 18px;
+}
+
+.offer__button--one {
+    position: absolute;
+    top: 273px;
+    left: 104px;
+}
+
+.offer__button--two {
+    position: absolute;
+    left: 194px;
+    top: 480px;
+}
+
+.offer__button--three {
+    position: absolute;
+    bottom: 467px;
+    right: 122px;
+}

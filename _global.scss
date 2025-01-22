@@ -1,0 +1,93 @@
+body {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0 auto;
+
+    font-size: 24px;
+    line-height: 28.15px;
+    text-align: center;
+    width: 1728px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.button {
+    border-radius: 100%;
+
+}
+
+.button-search {
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 340px;
+    right: 645px;
+}
+
+.button-search::after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    top: 13px;
+    right: 8px;
+    position: absolute;
+    background-image: url(./icon/search.svg);
+    background-repeat: no-repeat;
+}
+
+.button-subscribe {
+    width: 145px;
+    height: 47px;
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 226px;
+    left: 402px;
+}

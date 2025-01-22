@@ -1,0 +1,33 @@
+.header {
+    padding: 60px 115px;
+    // color: $light;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 439px;
+    margin-left: 485px;
+}
+
+.header__list {
+    display: flex;
+    gap: 68px;
+}
+
+.header__link {
+    color: $light;
+}
+
+.header__link--current {
+    color: transparent; 
+background-clip: text; 
+background-image: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);    
+}
+
+.header__link--basket {
+    background-image: url(./icon/basket.png);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 37px;
+}

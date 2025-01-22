@@ -1,0 +1,66 @@
+.service {
+    padding: 127px 120px 0;
+}
+
+.service__list {
+    display: flex;
+    gap: 226px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.service__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.54px;
+    text-align: left;
+    color: $dark;
+}
+
+.service__description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.46px;
+    text-align: left;
+    color:$light-grey;
+    margin: 16px 0 0;
+}
+
+.service__item {
+    margin-left: 108px;
+    position: relative;
+}
+
+.service__item--free-shipping::after{
+    content: "";
+    background-image: url(./icon/delivery.svg);
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: -3px;
+    left: -106px;
+}
+
+.service__item--payment::after {
+    content: "";
+    background-image: url(./icon/wallet.svg);
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: -3px;
+    left: -106px; 
+}
+
+.service__item--support::after {
+    content: "";
+    background-image: url(./icon/support.svg);
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: -3px;
+    left: -106px;
+}

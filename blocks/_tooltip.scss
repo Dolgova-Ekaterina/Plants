@@ -1,0 +1,42 @@
+.tooltip {
+    border: 1px solid #FFFFFF;
+    background: #FFFDFD33;
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    width: 205px;
+    height: 103px;
+    display: block;
+    border-radius: 24px;
+    position: absolute;
+    top: 355px;
+    right: 40px;
+}
+
+.arrow {
+    position: absolute;
+    left: 90px;
+    bottom: -35px;
+    border: 15px solid transparent;
+    border-top: 21px solid #FFF;
+}
+
+
+.tooltip__price {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.54px;
+    text-align: left;
+    color: $light;
+}
+
+
+.tooltip__product-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.77px;
+    text-align: left;
+    color: $light;
+    margin-top: 12px;
+}

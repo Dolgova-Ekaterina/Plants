@@ -1,0 +1,109 @@
+.catalog-product {
+    width: 1051px;
+    display: flex;
+    gap: 32px;
+}
+
+.catalog-product__item {
+    width: 329px;
+    margin-top: 373px;
+    background-color: $light;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    z-index: revert-layer;
+}
+
+.catalog-product__item::before {
+    content: "";
+    position: absolute;
+    background: #C1D0E4;
+    height: 290px;
+    width: 329px;
+    bottom: 218px;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px 50px 0 0;
+}
+
+.catalog-product__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.54px;
+    text-align: start;
+    margin: 26px 0 0 38px;
+    position: relative;
+}
+
+.catalog-product__title--primary::before {
+    content: '';
+    background-image: url(./img/plant1.png);
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 333px;
+    position: absolute;
+    bottom: 103px;
+    right: 0;
+}
+
+.catalog-product__title--secondary::before {
+    content: '';
+    background-image: url(./img/plant2.png);
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 333px;
+    position: absolute;
+    bottom: 103px;
+    right: 0;
+}
+
+.catalog-product__title--next::before {
+    content: '';
+    background-image: url(./img/plant3.png);
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 333px;
+    position: absolute;
+    bottom: 103px;
+    right: 0;
+}
+
+.catalog-product__rating {
+    background-image: url(./icon/srar.svg);
+    width: 122px;
+    height: 24px;
+    display: block;
+    margin: 7px 0 0 38px;
+}
+
+.catalog-product__wrapper {
+    display: flex;
+    padding: 59px 38px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-product__price {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.54px;
+    color: $dark;
+}
+
+
+.catalog-product__button {
+    background: linear-gradient(90deg, #2AF598 0%, #009EFD 100%);
+    width: 64px;
+    height: 64px;
+    border: none;
+    position: relative;
+}
+
+.catalog-product__button::after {
+    font-size: 50px;
+    content: '+';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}

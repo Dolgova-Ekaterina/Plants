@@ -1,0 +1,32 @@
+.care {
+    padding: 0 120px 205px 126px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.care__title {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75.07px;
+    text-align: left;
+    color: $dark;
+    width: 452px;
+}
+
+.care__text {
+    color: $dark-grey;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.15px;
+    text-align: left;
+    width: 452px;
+    margin: 0;
+    margin-top: 28px;
+}
+
+.care__img {
+    grid-column: 2 / 3;
+    grid-row: 3 / -2;
+    margin-top: 101px;
+    margin-left: auto;
+}
